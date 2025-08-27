@@ -1,7 +1,7 @@
 # Baked by Ruth Website — HTML Overview
 
 ## Student Information
-- **Name:** Khanyisa Ntsako Shikwambana  
+- **Name:** Khanyisa Ntsako Shikwambana 
 - **Student Number:** ST10476385  
 - **Module:** WEB DEVELOPMENT (INTRODUCTION) WEDE5020/p/w  
 - **Institution:** The Independent Institute of Education (IIE)  
