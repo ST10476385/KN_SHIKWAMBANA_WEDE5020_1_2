@@ -1,0 +1,60 @@
+<!--
+  checkout.html
+  Checkout page for Baked by Ruth.
+  Lets users review their cart and enter payment/delivery details.
+-->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <!--
+    Head section: Sets up page metadata and links to the main stylesheet.
+  -->
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Checkout | Baked by Ruth</title>
+  
+</head>
+<body>
+  <!--
+    Main Content: Contains the checkout form, cart summary, and payment logic.
+    Uses a centered container for layout.
+  -->
+  <!-- Main Content: Contains the checkout form and cart summary. -->
+  <div>
+    <h1>Checkout</h1>
+    <!-- Cart Summary (static example, edit as needed) -->
+    <div>
+      <p><strong>Cart Summary:</strong></p>
+      <ul>
+        <li>Chocolate Cake x 1 - R120</li>
+        <li>Red Velvet Cupcake x 2 - R50</li>
+      </ul>
+      <p><strong>Total: R170</strong></p>
+    </div>
+    <form>
+      <!--
+        Checkout Form: Collects user details and payment method.
+      -->
+      <label for="name">Full Name</label>
+      <input type="text" id="name" name="name" required>
+      <label for="email">Email Address</label>
+      <input type="email" id="email" name="email" required>
+      <label for="address">Delivery Address</label>
+      <input type="text" id="address" name="address" required>
+      <label for="payment">Payment Method</label>
+      <select id="payment" name="payment" required>
+        <option value="card">Credit/Debit Card</option>
+        <option value="eft">EFT (Demo)</option>
+        <option value="cash">Cash on Delivery</option>
+      </select>
+  <button type="submit">Pay Now (Demo)</button>
+    </form>
+    <div>
+      <em>Thank you! Your order has been placed (demo).</em>
+    </div>
+    <div>
+      <small>This is a demo payment page. No real payment will be processed.</small>
+    </div>
+  </div>
+</body>
+</html>

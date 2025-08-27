@@ -1,0 +1,61 @@
+<!--
+  enroll.html
+  Course enrollment page for Baked by Ruth.
+  Lets users sign up for baking courses.
+-->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <!--
+    Head section: Sets up page metadata and links to the main stylesheet.
+  -->
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Enroll in a Course | Baked by Ruth</title>
+  <!-- No CSS or JS included for assignment compliance -->
+</head>
+<body>
+  <!--
+    Navigation Bar: Contains site branding and navigation links.
+    The nav is styled for both desktop and mobile users.
+  -->
+  <!-- Navigation Bar -->
+  <nav>
+    <div>
+      <img src="images/LOGO.jpg" alt="Baked by Ruth Logo" width="48" height="48">
+      <h1 style="display:inline;">Baked by Ruth</h1>
+      <span>A Legacy of Love</span>
+    </div>
+    <ul>
+      <li><a href="index.html">Home</a></li>
+      <li><a href="about.html">About Us</a></li>
+      <li><a href="products.html">Products</a></li>
+      <li><a href="courses.html">Courses</a></li>
+      <li><a href="events.html">Events</a></li>
+      <li><a href="enquiry.html">Enquiry</a></li>
+      <li><a href="contact.html">Contact</a></li>
+    </ul>
+  </nav>
+  <main>
+    <!-- Main Content: Enrollment form and success message -->
+    <div>
+      <h2>Enroll in a Course</h2>
+      <form>
+        <!-- Enrollment Form: Collects user details for course registration. -->
+        <label for="name">Full Name</label>
+        <input type="text" id="name" name="name" required>
+        <label for="email">Email</label>
+        <input type="email" id="email" name="email" required>
+        <label for="phone">Phone Number</label>
+        <input type="tel" id="phone" name="phone" required>
+        <label for="course">Course Name</label>
+        <input type="text" id="course" name="course" required>
+        <button type="submit">Submit Enrollment</button>
+      </form>
+      
+      <div>Thank you for enrolling! We will contact you soon.</div>
+    </div>
+  </main>
+ 
+</body>
+</html>

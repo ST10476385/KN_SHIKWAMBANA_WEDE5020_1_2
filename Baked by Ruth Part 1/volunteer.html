@@ -1,0 +1,73 @@
+<!--
+  volunteer.html
+  Volunteer sign-up page for Baked by Ruth.
+  Lets users sign up to help at events and programs.
+  Comments throughout explain the structure and purpose of each section for educational clarity.
+-->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <!--
+    Head section: Sets up page metadata and links to the main stylesheet.
+  -->
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Volunteer | Baked by Ruth</title>
+
+</head>
+<body>
+  <!--
+    Navigation Bar: Contains site branding and navigation links.
+    The nav is styled for both desktop and mobile users.
+  -->
+  <nav>
+    <div>
+      <img src="images/LOGO.jpg" alt="Baked by Ruth Logo" width="80" height="48">
+      <h1>Baked by Ruth</h1>
+      <span>A Legacy of Love</span>
+    </div>
+    <ul>
+      <li><a href="index.html">Home</a></li>
+      <li><a href="about.html">About Us</a></li>
+      <li><a href="products.html">Products</a></li>
+      <li><a href="courses.html">Courses</a></li>
+      <li><a href="events.html">Events</a></li>
+      <li><a href="enquiry.html">Enquiry</a></li>
+      <li><a href="contact.html">Contact</a></li>
+    </ul>
+  </nav>
+  <main>
+    <!--
+      Main Content: Contains the volunteer form and info.
+      Uses a centered container for layout.
+    -->
+    <div>
+      <h2>Volunteer With Us</h2>
+      <p>Help us organize and run events. From setup to cleanup, every helping hand makes a difference. Fill out the form below to get involved!</p>
+      <form>
+        <!--
+          Volunteer Form: Collects volunteer details for event participation.
+        -->
+        <div>
+          <label for="name">Full Name</label>
+          <input type="text" name="name" required>
+        </div>
+        <div>
+          <label for="email">Email</label>
+          <input type="email" name="email" required>
+        </div>
+        <div>
+          <label for="phone">Phone Number</label>
+          <input type="tel" name="phone" required>
+        </div>
+        <button type="submit">Sign Up to Volunteer</button>
+      </form>
+  <div>Thank you for volunteering! We'll be in touch soon.</div>
+      <!--
+        Success Message: Shown after successful form submission.
+      -->
+    </div>
+  </main>
+
+</body>
+</html>

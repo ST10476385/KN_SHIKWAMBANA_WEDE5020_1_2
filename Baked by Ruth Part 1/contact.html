@@ -1,0 +1,227 @@
+<!--
+  contact.html
+  Contact page for Baked by Ruth.
+  Lets users find contact info and send messages.
+
+-->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <!--
+    Head section: Sets up page metadata for SEO, social sharing, and responsive design.
+  -->
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Contact Baked by Ruth. Find our locations, phone, email, WhatsApp, and send us a message.">
+  <meta name="keywords" content="Contact, Bakery, Phone, Email, WhatsApp, Location, Polokwane, South Africa">
+  <meta name="author" content="Khanyisa Shikwambana">
+  <meta property="og:title" content="Contact | Baked by Ruth">
+  <meta property="og:description" content="Contact Baked by Ruth. Find our locations, phone, email, WhatsApp, and send us a message.">
+  <meta property="og:type" content="website">
+  <meta property="og:image" content="images/hero-placeholder.jpg">
+  <meta property="og:url" content="https://bakedbyruth.co.za/contact.html">
+  <title>Contact | Baked by Ruth</title>
+  
+</head>
+<body>
+  <!--
+    Navigation Bar: Contains site branding, navigation links, hamburger menu for mobile, and dark mode toggle.
+    The nav is styled for both desktop and mobile users.
+  -->
+  <!-- Navigation with hamburger menu and dark mode toggle -->
+  <!-- Navigation Bar: Contains site branding, navigation links, hamburger menu for mobile, and dark mode toggle. -->
+  <nav>
+    <div>
+      <img src="images/LOGO.jpg" alt="Baked by Ruth Logo" width="80" height="80">
+      <h1>Baked by Ruth</h1>
+      <span>A Legacy of Love</span>
+    </div>
+    <button id="menu-btn" aria-label="Open navigation menu">&#9776;</button>
+    <ul>
+      <li><a href="index.html">Home</a></li>
+      <li><a href="about.html">About Us</a></li>
+      <li><a href="products.html">Products</a></li>
+      <li><a href="courses.html">Courses</a></li>
+      <li><a href="events.html">Events</a></li>
+      <li><a href="enquiry.html">Enquiry</a></li>
+      <li><a href="contact.html">Contact</a></li>
+    </ul>
+    <button id="dark-toggle" aria-label="Toggle dark mode">🌙</button>
+  </nav>
+
+  <!--
+    Hero Section: Large orange header introducing the Contact page.
+    Includes a headline, subheading, and brief description.
+  -->
+  <!-- Hero Section: Large header introducing the Contact page. -->
+  <header>
+    <div>
+      <div>
+        <h2>Contact Us</h2>
+        <h3>We'd Love to Hear from You</h3>
+        <p>Visit us at our bakery locations or get in touch. We're here to help make your celebrations sweeter.</p>
+      </div>
+      <div></div>
+    </div>
+  </header>
+
+  <!--
+    Scroll to Top Button: Appears when user scrolls down, lets users quickly return to the top of the page.
+  -->
+  <button id="scroll-top-btn" aria-label="Scroll to top">↑</button>
+  <main>
+    <!--
+      Main Content: Contains all contact info, locations, and the contact form.
+      Uses a centered container for layout.
+    -->
+    <div>
+      <div>
+        <h1>Contact Us</h1>
+        <p>Visit us at our bakery locations or get in touch. We're here to help make your celebrations sweeter.</p>
+      </div>
+  <div>
+        <!--
+          Contact Info Cards: Show phone, email, WhatsApp, and address details.
+        -->
+        <div>
+          <div>📞</div>
+          <h3>Phone</h3>
+          <p>+27 123 456 789</p>
+          <p>Mon-Sat: 6AM-6PM</p>
+        </div>
+        <div>
+          <div>✉️</div>
+          <h3>Email</h3>
+          <p>hello@bakedbyruth.co.za</p>
+          <p>We reply within 24 hours</p>
+        </div>
+        <div>
+          <div>📱</div>
+          <h3>WhatsApp</h3>
+          <p>+27 123 456 789</p>
+          <p>Quick orders & enquiries</p>
+        </div>
+      </div>
+
+      <!-- Locations -->
+      <section>
+        <h2>Our Locations</h2>
+        <div>
+          <div>
+            <img src="images/contact-mainbakery.jpg" alt="Main Baked by Ruth bakery storefront with warm lighting" width="320" height="200">
+            <div>
+              <h3>Main Bakery</h3>
+              <div>
+                <p>📍 123 Heritage Street, Polokwane, Limpopo</p>
+                <p>🕒 Monday - Saturday: 6:00 AM - 6:00 PM</p>
+                <p>🕒 Sunday: 7:00 AM - 2:00 PM</p>
+                <p>🚗 Free parking available</p>
+              </div>
+              <p>Our main bakery where Ruth's journey began. Full range of products, custom cake consultations, and bulk order pickups.</p>
+            </div>
+          </div>
+          <div>
+            <img src="images/contact-express.jpg" alt="Baked by Ruth express location in shopping center" width="320" height="200">
+            <div>
+              <h3>Express Location</h3>
+              <div>
+                <p>📍 Mall of the North, Shop 45, Polokwane</p>
+                <p>🕒 Monday - Saturday: 9:00 AM - 7:00 PM</p>
+                <p>🕒 Sunday: 10:00 AM - 5:00 PM</p>
+                <p>🛍️ Mall parking & foot traffic</p>
+              </div>
+              <p>Convenient location for fresh daily items, coffee pairings, and quick pickups. Limited custom cake services.</p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Contact Form -->
+      <section>
+        <div>
+          <h2>Send Us a Message</h2>
+          <form>
+            <div>
+              <div>
+                <label for="contactName">Your Name *</label>
+                <input type="text" id="contactName" name="contactName" required>
+              </div>
+              <div>
+                <label for="contactEmail">Email Address *</label>
+                <input type="email" id="contactEmail" name="contactEmail" required>
+              </div>
+            </div>
+            <div>
+              <label for="contactSubject">Subject *</label>
+              <select id="contactSubject" name="contactSubject" required>
+                <option value="">Select a subject</option>
+                <option value="general-inquiry">General Inquiry</option>
+                <option value="product-feedback">Product Feedback</option>
+                <option value="catering-services">Catering Services</option>
+                <option value="partnership">Partnership Opportunity</option>
+                <option value="complaint">Complaint or Issue</option>
+                <option value="compliment">Compliment</option>
+              </select>
+            </div>
+            <div>
+              <label for="contactMessage">Message *</label>
+              <textarea id="contactMessage" name="contactMessage" rows="5" required placeholder="Tell us how we can help you..."></textarea>
+            </div>
+            <button type="submit">Send Message</button>
+          </form>
+        </div>
+      </section>
+
+      <!-- Map Section -->
+      <section>
+        <h2>Find Us</h2>
+        <div>
+          <div>
+            <iframe src="https://www.google.com/maps?q=Cakes+at+Large,+24+Rabe+St,+S+Ext+17+The+Glenkens+Limpopo+0699&output=embed" width="320" height="200" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade" title="Bakery Location Map"></iframe>
+          </div>
+          <div>
+            <h3>Getting to Our Main Bakery</h3>
+            <div>
+              <p><strong>From N1 Highway:</strong> Take R101 exit toward Polokwane. Continue on R101 for 8km, turn left at Heritage Street.</p>
+              <p><strong>Public Transport:</strong> Take BRT Bus Route 12 to Heritage Street stop, walk 200m north.</p>
+              <p><strong>Landmarks:</strong> Located next to Heritage Primary School, opposite Pick n Pay Heritage Plaza.</p>
+            </div>
+            <div>
+              <h4>Delivery Service</h4>
+              <p>We deliver within 15km of our main bakery. Minimum order R150. Delivery fee R50. Free delivery for orders over R500.</p>
+            </div>
+          </div>
+        </div>
+      </section>
+    </div>
+  </main>
+
+  <!-- Footer -->
+  <!-- Footer: Contains site info, quick links, and contact info. -->
+  <footer>
+    <div>
+      <div>
+        <h3>Baked by Ruth</h3>
+        <p>Preserving Ruth's legacy through traditional baking with love and care.</p>
+      </div>
+      <div>
+        <h3>Quick Links</h3>
+        <ul>
+          <li><a href="about.html">About Us</a></li>
+          <li><a href="products.html">Products</a></li>
+          <li><a href="courses.html">Courses</a></li>
+          <li><a href="events.html">Events</a></li>
+          <li><a href="contact.html">Contact</a></li>
+        </ul>
+      </div>
+      <div>
+        <h3>Contact Info</h3>
+        <p>Phone: +27 123 456 789<br>Email: hello@bakedbyruth.co.za<br>Open: Mon-Sat 6AM-6PM</p>
+      </div>
+    </div>
+    <div>
+      <p>&copy; 2025 Baked by Ruth. All rights reserved. In loving memory of Ruth.</p>
+    </div>
+  </footer>
+</body>
+</html>
