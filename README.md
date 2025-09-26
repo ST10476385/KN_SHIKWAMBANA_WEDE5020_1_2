@@ -7,8 +7,7 @@
 * **Institution:** The Independent Institute of Education (IIE)
 * **Github Link:** https://github.com/ST10476385/KN_SHIKWAMBANA_WEDE5020_1_2.git
 ---
-
-
+ 
 ## Project Overview
 **Baked by Ruth** is a tribute website honoring my late grandmother Ruth, who inspired this project through her love for baking and community.  
 Baked by Ruth is a tribute website for a beloved community baker, designed to showcase traditional South African baked goods, promote community events, and empower youth through baking courses. The site is fully responsive, SEO-optimized, and features a modern, accessible design. It is built using semantic HTML5 and modular CSS3, with a strong focus on best practices, maintainability, and accessibility. All JavaScript was removed for Part 2 to meet assignment requirements, and all styling is handled through a single, well-organized `styles.css` file. The project demonstrates:
