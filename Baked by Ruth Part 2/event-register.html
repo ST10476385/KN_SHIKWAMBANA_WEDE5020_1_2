@@ -1,0 +1,48 @@
+<!--
+  Baked by Ruth - Event Registration Page
+  This page allows users to register for a specific event. All styling is handled in css/styles.css.
+-->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Event Registration | Baked by Ruth</title>
+  <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+  <!-- Main content: Event registration form -->
+  <main class="main-content">
+    <div class="event-register-container">
+      <!-- Back button for navigation -->
+      <button onclick="history.back()" class="btn btn-outline event-back-btn">&larr; Back</button>
+      <!-- Event registration form title -->
+      <h1 class="event-register-title">Register for an Event</h1>
+      <!-- Event registration form fields -->
+      <form action="#" method="post" class="event-register-form">
+        <label for="event" class="event-label">Select Event</label>
+        <select id="event" name="event" required class="event-input">
+          <option value="">-- Please choose an event --</option>
+          <option value="Ruth's Legacy Bake Sale">Ruth's Legacy Bake Sale</option>
+          <option value="Family Baking Day">Family Baking Day</option>
+          <option value="Young Entrepreneurs Fair">Young Entrepreneurs Fair</option>
+          <option value="Easter Baking Celebration">Easter Baking Celebration</option>
+        </select>
+        <!-- User information fields -->
+  <label for="name" class="event-label">Full Name</label>
+  <input type="text" id="name" name="name" required class="event-input">
+  <label for="email" class="event-label">Email Address</label>
+  <input type="email" id="email" name="email" required class="event-input">
+  <label for="phone" class="event-label">Phone Number</label>
+  <input type="tel" id="phone" name="phone" class="event-input">
+  <label for="message" class="event-label">Additional Message (optional)</label>
+  <textarea id="message" name="message" rows="3" class="event-input"></textarea>
+        <!-- Submit button -->
+  <button type="submit" class="event-submit-btn">Submit Registration</button>
+      </form>
+      <!-- Note and contact link -->
+  <p class="event-register-note">Have questions? <a href="enquiry.html" class="event-register-link">Contact us here</a>.</p>
+    </div>
+  </main>
+</body>
+</html>

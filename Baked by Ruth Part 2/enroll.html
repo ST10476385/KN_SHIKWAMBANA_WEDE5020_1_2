@@ -1,0 +1,67 @@
+<!--
+  Baked by Ruth - Enroll Page
+  This page allows users to enroll in a course. All styling is handled in css/styles.css.
+-->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Enroll in a Course | Baked by Ruth</title>
+  <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+  <!-- Navigation bar with logo and links -->
+  <nav class="navbar">
+    <div class="container nav-flex">
+      <div class="brand">
+  <img src="images/LOGO.jpg" alt="Baked by Ruth Logo" class="logo-img-inline">
+  <h1 class="brand-title-inline">Baked by Ruth</h1>
+        <span class="subtitle">A Legacy of Love</span>
+      </div>
+      <ul class="nav-links">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="about.html">About Us</a></li>
+        <li><a href="products.html">Products</a></li>
+        <li><a href="courses.html" class="active">Courses</a></li>
+        <li><a href="events.html">Events</a></li>
+        <li><a href="enquiry.html">Enquiry</a></li>
+        <li><a href="contact.html">Contact</a></li>
+      </ul>
+    </div>
+  </nav>
+  <!-- Main content: Enrollment form -->
+  <main class="main-content">
+    <div class="enroll-form-container">
+      <!-- Back button for navigation -->
+      <button onclick="history.back()" class="btn btn-outline enroll-back-btn">&larr; Back</button>
+      <!-- Enrollment form title -->
+      <h2 class="enroll-title">Enroll in a Course</h2>
+      <!-- Enrollment form fields -->
+      <form id="enroll-form">
+        <div class="enroll-form-group">
+          <label for="name" class="enroll-label">Full Name</label>
+          <input type="text" id="name" name="name" required class="enroll-input">
+        </div>
+        <div class="enroll-form-group">
+          <label for="email" class="enroll-label">Email</label>
+          <input type="email" id="email" name="email" required class="enroll-input">
+        </div>
+        <div class="enroll-form-group">
+          <label for="phone" class="enroll-label">Phone Number</label>
+          <input type="tel" id="phone" name="phone" required class="enroll-input">
+        </div>
+        <div class="enroll-form-group">
+          <label for="course" class="enroll-label">Course Name</label>
+          <input type="text" id="course" name="course" required class="enroll-input">
+        </div>
+        <!-- Submit button -->
+        <button type="submit" class="enroll-submit-btn">Submit Enrollment</button>
+      </form>
+      <!-- Success message shown after form submission -->
+      <div id="enroll-success" class="enroll-success-msg">Thank you for enrolling! We will contact you soon.</div>
+    </div>
+  </main>
+  
+</body>
+</html>
