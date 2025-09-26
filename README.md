@@ -5,7 +5,7 @@
 * **Student Number:** ST10476385
 * **Module:** Web Development (Introduction) — WEDE5020/p/w
 * **Institution:** The Independent Institute of Education (IIE)
-* **Github Link:** https://github.com/ST10476385/KN_SHIKWAMBANA_WEDE5020_PART1-2.git
+* **Github Link:** https://github.com/ST10476385/KN_SHIKWAMBANA_WEDE5020_1_2.git
 ---
 
 ## Project Reference
@@ -375,4 +375,4 @@ All images used in this project are sourced from this Pinterest board:
 **Student Number:** ST10476385  
 **Module:** Web Development (Introduction) — WEDE5020  
 **Institution:** The Independent Institute of Education (IIE)  
-https://github.com/ST10476385/KN_SHIKWAMBANA_WEDE5020_PART1-2.git
+https://github.com/ST10476385/KN_SHIKWAMBANA_WEDE5020_1_2.git
