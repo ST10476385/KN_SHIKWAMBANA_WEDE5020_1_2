@@ -174,7 +174,7 @@ Baked by Ruth/
 	- **Documentation updates:** Updated this README and website-checklist.md to reflect all changes, best practices, and assignment requirements.
 	- **Linting and validation:** Fixed all CSS and HTML lint errors, including removing empty rulesets and ensuring all files pass validation.
 	- **Final review:** Performed a full walkthrough of every page to ensure all styles are external, all navigation works, and the site is visually consistent and accessible on all devices.
-https://github.com/ST10476385/KN_SHIKWAMBANA_WEDE5020_PART1-2.git
+
 ---
 
 
