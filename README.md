@@ -8,10 +8,7 @@
 * **Github Link:** https://github.com/ST10476385/KN_SHIKWAMBANA_WEDE5020_1_2.git
 ---
 
-## Project Reference
-Shikwambana, K. (2025) Baked by Ruth: Community Bakery Website Project. Private student repository, WEB DEVELOPMENT (INTRODUCTION) WEDE5020/p/w, The Independent Institute of Education (IIE).
 
----
 
 ## Project Overview
 **Baked by Ruth** is a tribute website honoring my late grandmother Ruth, who inspired this project through her love for baking and community.  
@@ -52,6 +49,37 @@ Baked by Ruth is a tribute website for a beloved community baker, designed to sh
 - **No JavaScript:** All interactive and visual features are implemented using only HTML and CSS for Part 2, as per assignment requirements.
 
 ---
+## Timeline and Milestones
+
+### Part 1: Project Planning & HTML Structure
+- Project proposal and planning: 14 August 2025  
+	Developed the project concept, defined objectives, and outlined deliverables for a tribute bakery website. Created a detailed plan for content, structure, and user experience.
+- Content research and sourcing: 15–16 August 2025  
+	Gathered original and public domain content, images, and references. Outlined all required pages and features based on assignment and user needs.
+- HTML structure and navigation: 17–18 August 2025  
+	Built semantic HTML5 structure for all pages, including navigation bar, hero sections, product/event/course cards, forms, and footer. Ensured all pages were accessible via a consistent navigation menu.
+- Initial submission and feedback: 19–20 August 2025  
+	Submitted Part 1 for review. Incorporated feedback on structure, navigation, and content completeness.
+
+### Part 2: CSS Styling & Responsive Design
+- CSS styling and responsive design: 21 August – 26 September 2025  
+	Designed and implemented a modern, responsive layout using CSS Grid and Flexbox. Created a warm, bakery-inspired color palette and consistent branding. All pages styled for mobile, tablet, and desktop.
+- Accessibility improvements: 21–26 September 2025  
+	Improved color contrast, added focus states, ensured keyboard navigation, and provided descriptive alt text for all images. Verified all forms and navigation are accessible.
+- Major codebase cleanup and best practices: 20–26 September 2025  
+	Removed all JavaScript, moved all inline CSS to `styles.css`, created semantic CSS classes for every section, and cleaned up all HTML for maintainability and grading. Added detailed comments and fixed all lint errors.
+- Part 2 submission: 26 September 2025  
+	Final review and testing. Submitted fully refactored, accessible, and well-documented project for grading.
+
+### Part 3: JavaScript & Final Enhancements
+- JavaScript interactivity: 27 September – 19 November 2025
+- SEO and advanced accessibility: 1–15 November 2025
+- Testing and debugging: 16–18 November 2025
+- Final review and documentation: 19 November 2025
+- Part 3 (final) submission: 19 November 2025
+
+---
+
 
 ## Sitemap
 - `index.html` (Home)
@@ -96,57 +124,11 @@ Baked by Ruth/
 
 ---
 
-## Design and User Experience
-- **Color Scheme:** Warm oranges, browns, and neutrals for a welcoming, bakery-inspired feel
-- **Typography:** Clean, readable sans-serif fonts; clear hierarchy for headings and body text
-- **Layout:** Grid and flexbox for responsive, modern layouts; generous spacing and rounded corners
-- **Branding:** Consistent use of logo, colors, and imagery across all pages
-- **Accessibility:** High contrast, alt text, keyboard navigation, and ARIA labels where needed
 
 ---
 
-## Technical Stack
-- **HTML5:** Semantic, accessible structure for all pages, with clear sectioning and ARIA labels where needed.
-- **CSS3:** Modular, maintainable stylesheet (`styles.css`) with custom properties, responsive design, and modern layouts. All inline styles removed and replaced with classes.
-- **SEO:** Meta tags, Open Graph, descriptive alt text, and semantic HTML for discoverability and sharing.
-- **Accessibility:** Focused on keyboard navigation, color contrast, and alt text for all images and icons.
-- **External Services:** Google Maps embed on Contact page for location and directions.
-
----
-
-## Timeline and Milestones
-
-### Part 1: Project Planning & HTML Structure
-- Project proposal and planning: 14 August 2025  
-	Developed the project concept, defined objectives, and outlined deliverables for a tribute bakery website. Created a detailed plan for content, structure, and user experience.
-- Content research and sourcing: 15–16 August 2025  
-	Gathered original and public domain content, images, and references. Outlined all required pages and features based on assignment and user needs.
-- HTML structure and navigation: 17–18 August 2025  
-	Built semantic HTML5 structure for all pages, including navigation bar, hero sections, product/event/course cards, forms, and footer. Ensured all pages were accessible via a consistent navigation menu.
-- Initial submission and feedback: 19–20 August 2025  
-	Submitted Part 1 for review. Incorporated feedback on structure, navigation, and content completeness.
-
-### Part 2: CSS Styling & Responsive Design
-- CSS styling and responsive design: 21 August – 26 September 2025  
-	Designed and implemented a modern, responsive layout using CSS Grid and Flexbox. Created a warm, bakery-inspired color palette and consistent branding. All pages styled for mobile, tablet, and desktop.
-- Accessibility improvements: 21–26 September 2025  
-	Improved color contrast, added focus states, ensured keyboard navigation, and provided descriptive alt text for all images. Verified all forms and navigation are accessible.
-- Major codebase cleanup and best practices: 20–26 September 2025  
-	Removed all JavaScript, moved all inline CSS to `styles.css`, created semantic CSS classes for every section, and cleaned up all HTML for maintainability and grading. Added detailed comments and fixed all lint errors.
-- Part 2 submission: 26 September 2025  
-	Final review and testing. Submitted fully refactored, accessible, and well-documented project for grading.
-
-### Part 3: JavaScript & Final Enhancements
-- JavaScript interactivity: 27 September – 19 November 2025
-- SEO and advanced accessibility: 1–15 November 2025
-- Testing and debugging: 16–18 November 2025
-- Final review and documentation: 19 November 2025
-- Part 3 (final) submission: 19 November 2025
-
----
 
 ## Changelog
-
 - **14 Aug 2025**: Project initialized, folder structure created.
 - **15–16 Aug 2025**: Added all HTML pages and navigation structure for a multi-page site.
 - **17–18 Aug 2025**: Integrated original and sourced content for all pages, including products, courses, and events.
@@ -179,24 +161,6 @@ Baked by Ruth/
 
 
 ---
-
-## How to Run the Project
-To view and explore the Baked by Ruth website locally:
-
-1. **Download or Clone the Repository:**
-	 - Download the ZIP from GitHub and extract it, or use `git clone https://github.com/[https://github.com/ST10476385/KN_SHIKWAMBANA_WEDE5020_PART1.git]/baked-by-ruth` to clone the repository.
-2. **Open the Project Folder:**
-	 - Use Visual Studio Code or any preferred code editor to open the project directory.
-3. **Launch the Website:**
-	 - Open `index.html` in your web browser (Chrome, Firefox, Edge, or Safari) by double-clicking the file or right-clicking and selecting "Open with...".
-4. **Browse the Site:**
-	 - Use the navigation menu to explore all pages: About, Products, Courses, Events, Enquiry, Contact, Cart, Checkout, Sponsor, Volunteer, and Get Involved.
-	 - All features are available without any server setup or dependencies—simply open the HTML files.
-
----
-
-
-
 
 ---
 
@@ -342,6 +306,9 @@ This project is for educational purposes only and is not intended for commercial
 All images used in this project are sourced from this Pinterest board:  
  Shikwambana, K. (n.d.) *Web Development* [Pinterest board]. Available at: <https://pin.it/3i4UtZJaW> (Accessed: 27 August 2025).  
 
+Shikwambana, K. (2025) Baked by Ruth: Community Bakery Website Project. Private student repository, WEB DEVELOPMENT (INTRODUCTION) WEDE5020/p/w, The Independent Institute of Education (IIE).
+
+---
 ### Learning & Tools
 * Academind (n.d.) *CSS Tutorial for Beginners* [video online]. Available at: <https://www.youtube.com/watch?v=1Rs2ND1ryYc> (Accessed: 26 August 2025).
 * Traversy Media (n.d.) *HTML Crash Course For Absolute Beginners* [video online]. Available at: <https://www.youtube.com/watch?v=UB1O30fR-EE> (Accessed: 26 August 2025).
@@ -370,9 +337,33 @@ All images used in this project are sourced from this Pinterest board:
 * Unsplash (2023) *Community volunteers helping* [online]. Available at: <https://unsplash.com/photos/example> (Accessed: 12 August 2025).
 
 ---
-##  Author
-**Name:** Khanyisa Ntsako Shikwambana  
-**Student Number:** ST10476385  
-**Module:** Web Development (Introduction) — WEDE5020  
-**Institution:** The Independent Institute of Education (IIE)  
-https://github.com/ST10476385/KN_SHIKWAMBANA_WEDE5020_1_2.git
+## Design and User Experience
+- **Color Scheme:** Warm oranges, browns, and neutrals for a welcoming, bakery-inspired feel
+- **Typography:** Clean, readable sans-serif fonts; clear hierarchy for headings and body text
+- **Layout:** Grid and flexbox for responsive, modern layouts; generous spacing and rounded corners
+- **Branding:** Consistent use of logo, colors, and imagery across all pages
+- **Accessibility:** High contrast, alt text, keyboard navigation, and ARIA labels where needed
+
+---
+
+## Technical Stack
+- **HTML5:** Semantic, accessible structure for all pages, with clear sectioning and ARIA labels where needed.
+- **CSS3:** Modular, maintainable stylesheet (`styles.css`) with custom properties, responsive design, and modern layouts. All inline styles removed and replaced with classes.
+- **SEO:** Meta tags, Open Graph, descriptive alt text, and semantic HTML for discoverability and sharing.
+- **Accessibility:** Focused on keyboard navigation, color contrast, and alt text for all images and icons.
+- **External Services:** Google Maps embed on Contact page for location and directions.
+
+## How to Run the Project
+To view and explore the Baked by Ruth website locally:
+
+1. **Download or Clone the Repository:**
+	 - Download the ZIP from GitHub and extract it, or use `git clone https://github.com/[https://github.com/ST10476385/KN_SHIKWAMBANA_WEDE5020_PART1.git]/baked-by-ruth` to clone the repository.
+2. **Open the Project Folder:**
+	 - Use Visual Studio Code or any preferred code editor to open the project directory.
+3. **Launch the Website:**
+	 - Open `index.html` in your web browser (Chrome, Firefox, Edge, or Safari) by double-clicking the file or right-clicking and selecting "Open with...".
+4. **Browse the Site:**
+	 - Use the navigation menu to explore all pages: About, Products, Courses, Events, Enquiry, Contact, Cart, Checkout, Sponsor, Volunteer, and Get Involved.
+	 - All features are available without any server setup or dependencies—simply open the HTML files.
+
+---
