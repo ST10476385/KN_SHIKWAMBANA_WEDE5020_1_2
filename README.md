@@ -371,3 +371,9 @@ All images used in this project are sourced from this Pinterest board:
 * Unsplash (2023) *Community volunteers helping* [online]. Available at: <https://unsplash.com/photos/example> (Accessed: 12 August 2025).
 
 ---
+##  Author
+**Name:** Khanyisa Ntsako Shikwambana  
+**Student Number:** ST10476385  
+**Module:** Web Development (Introduction) — WEDE5020  
+**Institution:** The Independent Institute of Education (IIE)  
+https://github.com/ST10476385/KN_SHIKWAMBANA_WEDE5020_PART1-2.git
