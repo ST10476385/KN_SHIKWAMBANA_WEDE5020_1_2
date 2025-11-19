@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Event Calendar | Baked by Ruth</title>
+  <link rel="stylesheet" href="css/styles.css">
+</head>
+<body class="events-page">
+  <nav class="navbar">
+    <div class="container nav-flex">
+      <div class="brand">
+        <img src="images/LOGO.jpg" alt="Baked by Ruth Logo" class="brand-logo">
+        <h1 class="brand-title">Baked by Ruth</h1>
+        <span class="subtitle">A Legacy of Love</span>
+      </div>
+      <ul class="nav-links">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="about.html">About Us</a></li>
+        <li><a href="products.html">Products</a></li>
+        <li><a href="courses.html">Courses</a></li>
+        <li><a href="events.html">Events</a></li>
+        <li><a href="enquiry.html">Enquiry</a></li>
+        <li><a href="contact.html">Contact</a></li>
+      </ul>
+    </div>
+  </nav>
+  <main class="main-content">
+    <div class="container event-panel">
+      <h2 class="event-h2">Event Calendar</h2>
+      <p class="event-lead">Check out our upcoming events and mark your calendar! Bring your family and friends and be part of our growing community — we host regular bake sales, workshops, and seasonal classes that support local youth programs.</p>
+
+      <div class="events-timeline">
+        <!-- Timeline item: month/day badge on the left, content on the right -->
+        <div class="timeline-item">
+          <div class="date-badge"><span class="month">SEP</span><span class="day">20</span></div>
+          <div class="timeline-content">
+            <h3 class="event-title">Spring Bake Sale</h3>
+            <div class="event-meta">Sat, Sept 20, 2025 • 9AM – 2PM • Market Square</div>
+            <p class="event-desc">A community fundraiser featuring fresh breads, pastries, and treats made by our students. All proceeds go to the Youth Entrepreneurship Program.</p>
+            <div class="event-actions">
+              <a href="event-register.html?event=Spring%20Bake%20Sale" class="btn btn-primary">Register</a>
+              <a href="event-register.html?event=Spring%20Bake%20Sale" class="btn btn-secondary">Details / Register</a>
+            </div>
+          </div>
+        </div>
+
+        <div class="timeline-item">
+          <div class="date-badge"><span class="month">OCT</span><span class="day">11</span></div>
+          <div class="timeline-content">
+            <h3 class="event-title">Community Bread Workshop</h3>
+            <div class="event-meta">Sat, Oct 11, 2025 • 10AM – 1PM • Community Kitchen</div>
+            <p class="event-desc">Hands-on sourdough and artisan bread techniques. Bring an apron — spaces are limited and booking is required.</p>
+            <div class="event-actions">
+              <a href="event-register.html?event=Community%20Bread%20Workshop" class="btn btn-primary">Register</a>
+              <a href="event-register.html?event=Community%20Bread%20Workshop" class="btn btn-secondary">Details / Register</a>
+            </div>
+          </div>
+        </div>
+
+        <div class="timeline-item">
+          <div class="date-badge"><span class="month">DEC</span><span class="day">06</span></div>
+          <div class="timeline-content">
+            <h3 class="event-title">Holiday Cookie Decorating</h3>
+            <div class="event-meta">Sat, Dec 6, 2025 • 11AM – 2PM • Studio 2</div>
+            <p class="event-desc">Family-friendly cookie decorating session — ideal for kids and adults. All materials provided; take home your creations.</p>
+            <div class="event-actions">
+              <a href="event-register.html?event=Holiday%20Cookie%20Decorating" class="btn btn-primary">Register</a>
+              <a href="event-register.html?event=Holiday%20Cookie%20Decorating" class="btn btn-secondary">Details / Register</a>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="event-extra">
+        <h4>More ways to join</h4>
+        <p>Can't attend these dates? Visit our <a href="events.html">Events page</a> for a full calendar, volunteer opportunities, and information about hosting a private class.</p>
+
+        <div class="event-info">
+          <h5>Venue & Contact</h5>
+          <p>Most events take place at our Community Kitchen or Market Square. For questions or group bookings, email <a href="mailto:hello@bakedbyruth.co.za">hello@bakedbyruth.co.za</a> or call +27 123 456 789.</p>
+        </div>
+
+        <form class="newsletter-form" action="#" onsubmit="event.preventDefault(); alert('Thanks — we\'ll keep you updated!');">
+          <label for="newsletter-email">Get event updates</label>
+          <div class="newsletter-row">
+            <input id="newsletter-email" type="email" placeholder="you@example.com" required>
+            <button class="btn btn-primary" type="submit">Subscribe</button>
+          </div>
+        </form>
+
+        <a href="events.html" class="btn btn-outline">Back to Events</a>
+      </div>
+    </div>
+  </main>
+</body>
+</html>

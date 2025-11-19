@@ -1,0 +1,250 @@
+<!--
+  enquiry.html
+  Enquiry page for Baked by Ruth.
+  Lets users place product, cake, course, or event enquiries.
+  Comments throughout explain the structure and purpose of each section for educational clarity.
+-->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <!--
+    Head section: Sets up page metadata for SEO, social sharing, and responsive design.
+    Links to the main stylesheet and JavaScript file.
+  -->
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Place an enquiry for products, custom cakes, courses, or events. We'll respond within 24 hours.">
+  <meta name="keywords" content="Enquiry, Order, Contact, Custom Cake, Bulk Order, Baking, Polokwane">
+  <meta name="author" content="Khanyisa Shikwambana">
+  <meta property="og:title" content="Enquiry | Baked by Ruth">
+  <meta property="og:description" content="Place an enquiry for products, custom cakes, courses, or events. We'll respond within 24 hours.">
+  <meta property="og:type" content="website">
+  <meta property="og:image" content="images/hero-placeholder.jpg">
+  <meta property="og:url" content="https://bakedbyruth.co.za/enquiry.html">
+  <title>Enquiry | Baked by Ruth</title>
+  <link rel="stylesheet" href="css/styles.css">
+  <script src="js/main.js" defer></script>
+</head>
+<body class="enquiry-page">
+  <!--
+    Navigation Bar: Contains site branding, navigation links, hamburger menu for mobile, and dark mode toggle.
+    The nav is styled for both desktop and mobile users.
+  -->
+  <!-- Navigation with hamburger menu and dark mode toggle -->
+  <nav class="navbar">
+    <div class="container nav-flex">
+    <div class="brand">
+  <img src="images/LOGO.jpg" alt="Baked by Ruth Logo" class="brand-logo">
+  <h1 class="brand-title">Baked by Ruth</h1>
+  <span class="subtitle">A Legacy of Love</span>
+    </div>
+      <!-- Hamburger menu button for mobile -->
+  <button id="menu-btn" aria-label="Open navigation menu">&#9776;</button>
+      <ul class="nav-links">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="about.html">About Us</a></li>
+        <li><a href="products.html">Products</a></li>
+        <li><a href="courses.html">Courses</a></li>
+        <li><a href="events.html">Events</a></li>
+        <li><a href="enquiry.html" class="active">Enquiry</a></li>
+        <li><a href="contact.html">Contact</a></li>
+      </ul>
+      <!-- Dark mode toggle button -->
+  <button id="dark-toggle" aria-label="Toggle dark mode"></button>
+    </div>
+  </nav>
+
+  <!--
+    Hero Section: Large orange header introducing the Enquiry page.
+    Includes a headline, subheading, and brief description.
+  -->
+  <header class="hero">
+    <div class="container hero-flex">
+      <div class="hero-text">
+        <h2>Place an Enquiry</h2>
+        <h3>We're Here to Help</h3>
+        <p>Let us know your baking needs, and we'll get back to you within 24 hours with a personal response.</p>
+      </div>
+      <div class="hero-img" style="display:none;"></div>
+    </div>
+  </header>
+
+  <!--
+    Scroll to Top Button: Appears when user scrolls down, lets users quickly return to the top of the page.
+    Controlled by JavaScript in main.js.
+  -->
+  <button id="scroll-top-btn" aria-label="Scroll to top">↑</button>
+  <main class="main-content">
+    <!--
+      Main Content: Contains the enquiry form and related info.
+      Uses a centered container for layout.
+    -->
+    <div class="container enquiry-inner">
+      <div class="text-center page-intro">
+        <h1>Place an Enquiry</h1>
+        <p>We'd love to help you with your baking needs. Fill out the form below and we'll get back to you within 24 hours.</p>
+      </div>
+      <!--
+        Get Involved Section: (if present) Encourages users to participate in bakery activities.
+      -->
+      
+      <div class="layout-grid">
+        <div class="card card--white">
+          <!--
+            Product Enquiry Form: Collects user details and enquiry info for products, cakes, courses, or events.
+            Uses a grid layout for responsive form fields.
+          -->
+          <h2 class="form-title">Product Enquiry Form</h2>
+          <form>
+            <div class="form-row two-col">
+              <div>
+                <label for="firstName" class="form-label">First Name *</label>
+                <input type="text" id="firstName" name="firstName" required class="form-control">
+              </div>
+              <div>
+                <label for="lastName" class="form-label">Last Name *</label>
+                <input type="text" id="lastName" name="lastName" required class="form-control">
+              </div>
+            </div>
+            <div class="form-row two-col">
+              <div>
+                <label for="email" class="form-label">Email Address *</label>
+                <input type="email" id="email" name="email" required class="form-control">
+              </div>
+              <div>
+                <label for="phone" class="form-label">Phone Number</label>
+                <input type="tel" id="phone" name="phone" class="form-control">
+              </div>
+            </div>
+            <div class="form-row">
+              <label for="enquiryType" class="form-label">Enquiry Type *</label>
+              <select id="enquiryType" name="enquiryType" required class="form-control">
+                <option value="">Select enquiry type</option>
+                <option value="individual-order">Individual Order</option>
+                <option value="signature-bakes">Signature Bakes Order</option>
+                <option value="custom-cake">Custom Cake Order</option>
+                <option value="bulk-order">Bulk Order</option>
+                <option value="corporate-catering">Corporate Catering</option>
+                <option value="wedding-cake">Wedding Cake</option>
+                <option value="course-enrollment">Course Enrollment</option>
+                <option value="event-inquiry">Event Inquiry</option>
+                <option value="volunteer-opportunity">Volunteer Opportunity</option>
+                <option value="sponsorship">Sponsorship Package</option>
+                <option value="general-enquiry">General Enquiry</option>
+              </select>
+            </div>
+            <div class="form-row two-col">
+              <div>
+                <label for="eventDate" class="form-label">Required Date</label>
+                <input type="date" id="eventDate" name="eventDate" class="form-control">
+              </div>
+              <div>
+                <label for="servings" class="form-label">Number of Servings</label>
+                <input type="number" id="servings" name="servings" min="1" placeholder="e.g., 20" class="form-control">
+              </div>
+            </div>
+            <div class="form-row">
+              <label for="message" class="form-label">Detailed Requirements *</label>
+              <textarea id="message" name="message" rows="6" required placeholder="Please describe your requirements in detail. For custom cakes, include design preferences, flavors, size, and any special dietary needs." class="form-control"></textarea>
+              <div class="form-help">
+                <strong>Event Enquiry:</strong> Let us know which event you are interested in, number of attendees, and any special requirements.<br>
+                <strong>Customised Cake:</strong> Please include the occasion (e.g., birthday, wedding), preferred flavors, size/servings, design ideas (colors, themes, decorations), and any dietary needs (e.g., eggless, gluten-free). You can also upload inspiration images below.<br>
+                <strong>Volunteer Opportunity:</strong> Tell us how you'd like to help (setup, baking, logistics, etc.) and your availability.<br>
+                <strong>Sponsorship Package:</strong> Request our sponsorship brochure or describe your business and preferred level of support.
+              </div>
+            </div>
+            <div class="form-row">
+              <label for="inspirationImages" class="form-label">Upload Inspiration Images (Optional)</label>
+              <input type="file" id="inspirationImages" name="inspirationImages" accept="image/*" multiple class="form-file">
+              <div class="form-note">You may upload up to 3 images (jpg, png, gif) to help us understand your vision. Max 5MB each.</div>
+            </div>
+            <div class="form-row">
+              <label for="budget" class="form-label">Budget Range (Optional)</label>
+              <select id="budget" name="budget" class="form-control">
+                <option value="">Select budget range</option>
+                <option value="under-200">Under R200</option>
+                <option value="200-500">R200 - R500</option>
+                <option value="500-1000">R500 - R1000</option>
+                <option value="1000-2000">R1000 - R2000</option>
+                <option value="2000-5000">R2000 - R5000</option>
+                <option value="over-5000">Over R5000</option>
+              </select>
+            </div>
+            <button type="submit" class="btn-primary">Submit Enquiry</button>
+            <p class="form-note centered">* Required fields. We'll respond to your enquiry within 24 hours.</p>
+          </form>
+        </div>
+        <div class="sidebar">
+          <div class="panel panel--contact">
+            <h3>Quick Contact</h3>
+            <div class="panel-text">
+              <div><span class="icon">📞</span>+27 123 456 789</div>
+              <div><span class="icon">✉️</span>hello@bakedbyruth.co.za</div>
+              <div><span class="icon">🕒</span>Mon-Sat: 6AM-6PM</div>
+            </div>
+          </div>
+          <div class="panel panel--guidelines">
+            <h3>Order Guidelines</h3>
+            <ul class="panel-list">
+              <li>• Signature bakes require 24 hours notice</li>
+              <li>• Custom cakes require 48 hours notice</li>
+              <li>• Bulk orders need 3-5 days advance booking</li>
+              <li>• Wedding cakes require consultation</li>
+              <li>• Course enrollment: 1 week before start</li>
+              <li>• Same-day orders available for standard items</li>
+              <li>• Delivery available within 15km radius</li>
+            </ul>
+          </div>
+          <div class="panel panel--services">
+            <h3>Popular Services</h3>
+            <div class="panel-text">
+              <div class="service">
+                <div class="service-title">Signature Treats Box</div>
+                <div class="service-desc">Mixed brownies, cookies & cupcakes</div>
+                <div class="service-price">From R320</div>
+              </div>
+              <div class="service">
+                <div class="service-title">Basic Baking Course</div>
+                <div class="service-desc">4-week beginner program</div>
+                <div class="service-price">From R650</div>
+              </div>
+              <div class="service">
+                <div class="service-title">Event Catering</div>
+                <div class="service-desc">Custom packages for any occasion</div>
+                <div class="service-price">From R480</div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </main>
+
+  <!-- Footer -->
+  <footer class="footer">
+    <div class="container footer-flex">
+      <div>
+        <h3>Baked by Ruth</h3>
+        <p>Preserving Ruth's legacy through traditional baking with love and care.</p>
+      </div>
+      <div>
+        <h3>Quick Links</h3>
+        <ul>
+          <li><a href="about.html">About Us</a></li>
+          <li><a href="products.html">Products</a></li>
+          <li><a href="courses.html">Courses</a></li>
+          <li><a href="events.html">Events</a></li>
+          <li><a href="contact.html">Contact</a></li>
+        </ul>
+      </div>
+      <div>
+        <h3>Contact Info</h3>
+        <p>Phone: +27 123 456 789<br>Email: hello@bakedbyruth.co.za<br>Open: Mon-Sat 6AM-6PM</p>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <p>&copy; 2025 Baked by Ruth. All rights reserved. In loving memory of Ruth.</p>
+    </div>
+  </footer>
+</body>
+</html>

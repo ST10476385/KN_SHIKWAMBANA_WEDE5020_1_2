@@ -1,0 +1,105 @@
+<!--
+  event-register.html
+  Event registration page for Baked by Ruth.
+  Lets users sign up for community events.
+  Comments throughout explain the structure and purpose of each section for educational clarity.
+-->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <!--
+    Head section: Sets up page metadata and links to the main stylesheet.
+  -->
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Event Registration | Baked by Ruth</title>
+  <link rel="stylesheet" href="css/styles.css">
+</head>
+<body class="event-register-page">
+  <!-- Navigation (shared header) -->
+  <nav class="navbar">
+    <div class="container nav-flex">
+      <div class="brand">
+        <img src="images/LOGO.jpg" alt="Baked by Ruth Logo" style="height:48px;width:auto;vertical-align:middle;margin-right:0.75rem;">
+        <h1 style="display:inline;vertical-align:middle;color:var(--primary);">Baked by Ruth</h1>
+        <span class="subtitle">A Legacy of Love</span>
+      </div>
+      <button id="menu-btn" aria-label="Open navigation menu" style="display:none;background:none;border:none;font-size:2rem;cursor:pointer;">&#9776;</button>
+      <ul class="nav-links">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="about.html">About Us</a></li>
+        <li><a href="products.html">Products</a></li>
+        <li><a href="courses.html">Courses</a></li>
+        <li><a href="events.html" class="active">Events</a></li>
+        <li><a href="enquiry.html">Enquiry</a></li>
+        <li><a href="contact.html">Contact</a></li>
+      </ul>
+      <button id="dark-toggle" aria-label="Toggle dark mode" style="margin-left:1rem;background:none;border:none;font-size:1.5rem;cursor:pointer;">🌙</button>
+    </div>
+  </nav>
+
+  <main class="main-content">
+    <header class="hero" >
+      <div class="container hero-flex">
+        <div class="hero-text">
+          <h2 class="register-h2">Event Registration</h2>
+          <p class="page-lead">Sign up for our community events and workshops.</p>
+        </div>
+      </div>
+    </header>
+
+    <div class="container" style="max-width:600px;margin:2rem auto;">
+      <p><a href="events.html" class="btn btn-outline">← Back to Events</a></p>
+      <h1 class="register-title">Register for an Event</h1>
+      <form id="event-register-form" action="#" method="post" class="register-form">
+        <!--
+          Event Registration Form: Collects user details and event selection.
+        -->
+        <label for="event" class="form-label">Select Event</label>
+        <select id="event" name="event" required class="form-select">
+          <option value="">-- Please choose an event --</option>
+          <option value="Ruth's Legacy Bake Sale">Ruth's Legacy Bake Sale</option>
+          <option value="Family Baking Day">Family Baking Day</option>
+          <option value="Young Entrepreneurs Fair">Young Entrepreneurs Fair</option>
+          <option value="Easter Baking Celebration">Easter Baking Celebration</option>
+        </select>
+        <label for="name" class="form-label">Full Name</label>
+        <input type="text" id="name" name="name" required class="form-control">
+        <label for="email" class="form-label">Email Address</label>
+        <input type="email" id="email" name="email" required class="form-control">
+        <label for="phone" class="form-label">Phone Number</label>
+        <input type="tel" id="phone" name="phone" class="form-control">
+        <label for="message" class="form-label">Additional Message (optional)</label>
+        <textarea id="message" name="message" rows="3" class="form-control"></textarea>
+        <button type="submit" class="btn btn-primary register-submit">Submit Registration</button>
+      </form>
+
+      <!-- Success message shown briefly before redirecting to the events page -->
+      <div id="register-success" role="status" aria-live="polite" class="register-success">
+        Thank you for registering! Redirecting to events…
+      </div>
+
+      <p class="register-help">Have questions? <a href="enquiry.html">Contact us here</a>.</p>
+    </div>
+  </main>
+  <script>
+    (function(){
+      var form = document.getElementById('event-register-form');
+      var success = document.getElementById('register-success');
+      if (!form || !success) return;
+      form.addEventListener('submit', function(e){
+        e.preventDefault();
+        // Disable button to prevent double submits
+          var btn = form.querySelector('button[type="submit"]');
+          if (btn) { btn.disabled = true; btn.textContent = 'Submitting...'; }
+        // Hide the form and show a friendly confirmation
+        form.style.display = 'none';
+        success.style.display = 'block';
+        // After a short pause, redirect to events page
+        setTimeout(function(){ window.location.href = 'events.html'; }, 1400);
+      });
+    })();
+  </script>
+
+</body>
+</html>
