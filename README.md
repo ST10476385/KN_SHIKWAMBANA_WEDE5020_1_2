@@ -9,6 +9,7 @@
 ---
 
 
+
 ## Project Overview 
 **Baked by Ruth** is a tribute website honoring my late grandmother Ruth, who inspired this project through her love for baking and community.
 
