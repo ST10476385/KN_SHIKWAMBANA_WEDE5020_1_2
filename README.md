@@ -7,6 +7,7 @@
 * **Institution:** The Independent Institute of Education (IIE)
 * **Github Link:** https://github.com/ST10476385/KN_SHIKWAMBANA_WEDE5020_1_2.git
 ---
+
  
 ## Project Overview
 **Baked by Ruth** is a tribute website honoring my late grandmother Ruth, who inspired this project through her love for baking and community.
