@@ -9,7 +9,7 @@
 ---
 
 
-## Project Overview
+## Project Overview 
 **Baked by Ruth** is a tribute website honoring my late grandmother Ruth, who inspired this project through her love for baking and community.
 
 Baked by Ruth showcases traditional South African baked goods, promotes community events, and supports youth development through hands-on baking courses. The site is responsive, SEO-aware, and designed with accessibility in mind. It is built using semantic HTML5 and modular CSS3 with a focus on maintainability and progressive enhancement.
