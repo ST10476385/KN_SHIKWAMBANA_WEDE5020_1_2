@@ -389,101 +389,84 @@ If you want, I can now:
 
 ### Homepage Screenshot
 ---
- <img width="1755" height="3825" alt="image" src="https://github.com/user-attachments/assets/6e894ca2-f2b6-4c4b-8adb-ae03bb9b4885" />
----
-<img width="1755" height="2210" alt="image" src="https://github.com/user-attachments/assets/2d41e506-28ac-4bb6-9832-bdaf776734fd" />
+<img width="1755" height="3456" alt="image" src="https://github.com/user-attachments/assets/5f739813-9da1-419c-8c58-8296e452e25c" />
+
 ---
 
 
 ### About Page Screenshot
 ---
-<img width="1755" height="2784" alt="image" src="https://github.com/user-attachments/assets/ee61b446-ece6-434c-9e04-0358a2c07ee3" />
----
-<img width="1755" height="2253" alt="image" src="https://github.com/user-attachments/assets/9bee510d-3abc-49dc-a518-04e972d7a6e3" />
+<img width="1755" height="3182" alt="image" src="https://github.com/user-attachments/assets/8223f19a-8b10-4731-af87-2004f3a0994f" />
+
 ---
 
 ### Products Page Screenshot
----
- <img width="1755" height="16049" alt="image" src="https://github.com/user-attachments/assets/48bccfa1-672d-4e9e-a351-ad13aa85ec0d" />
----
-<img width="1755" height="7523" alt="image" src="https://github.com/user-attachments/assets/c97683b4-2326-4bc9-8327-31b6c32a7ae6" />
----
+<img width="1755" height="8704" alt="image" src="https://github.com/user-attachments/assets/e4878eb1-4f66-45a4-af3a-bbcae95cf121" />
 
+---
+## Cart Screenshot
+<img width="1903" height="915" alt="image" src="https://github.com/user-attachments/assets/f0743e1e-226e-4ad9-8d81-f41916376f65" />
+
+## Checkout Page Screenshot
+<img width="1755" height="1335" alt="image" src="https://github.com/user-attachments/assets/81423d90-c1e3-4d29-a41c-3fab92cc042a" />
 
 ### Courses Page Screenshot
 ---
-<img width="1755" height="4085" alt="image" src="https://github.com/user-attachments/assets/7d66922e-688b-4fbf-915a-9c7077d2c3d8" />
+<img width="1755" height="6321" alt="image" src="https://github.com/user-attachments/assets/a6190fad-7309-4b5b-99b2-32a9e585e984" />
+
 ---
-<img width="1755" height="4345" alt="image" src="https://github.com/user-attachments/assets/382b748e-f9fd-48f0-a4ec-a1643e1ecbe2" />
----
+## Enroll Page Screenshot
+<img width="1755" height="1076" alt="image" src="https://github.com/user-attachments/assets/934ade24-fcb7-4e1a-ac05-310957402531" />
 
 ### Event Page Screenshot
 ---
-<img width="1755" height="3742" alt="image" src="https://github.com/user-attachments/assets/87c320a0-fc72-4361-b103-fb26e7a06fd9" />
----
-<img width="1755" height="3756" alt="image" src="https://github.com/user-attachments/assets/957622c5-da51-4bd0-a913-81475c9a5545" />
+<img width="1755" height="4978" alt="image" src="https://github.com/user-attachments/assets/f5aa9e6c-fbfc-49dc-bf96-56811067cc45" />
+
 ---
 
 ### Enquiry Page Screenshot
 ---
- <img width="1755" height="2017" alt="image" src="https://github.com/user-attachments/assets/085a55a6-bba3-48ef-b3e6-380a67bd97e7" />
----
-<img width="1755" height="2909" alt="image" src="https://github.com/user-attachments/assets/dd19e25d-a3a9-4cd7-aee2-1e9f7daa290f" />
+<img width="1755" height="3857" alt="image" src="https://github.com/user-attachments/assets/e00e1382-59a2-4563-9b74-ddd215930a4b" />
+
 ---
 
 
 ### Contact Page Screenshot
----
-  <img width="1755" height="3243" alt="image" src="https://github.com/user-attachments/assets/46c755e4-419e-414f-bf87-5bb92e50bd28" />
----
-<img width="1755" height="2614" alt="image" src="https://github.com/user-attachments/assets/07a2a415-59bc-4e16-bbcb-a2855e8e6d84" />
----
+<img width="1755" height="3693" alt="image" src="https://github.com/user-attachments/assets/2c22590c-e57a-4c2f-9d93-6b336b5f68f2" />
+
 
 ### Sponsor Page Screenshot
 ---
-<img width="1755" height="848" alt="image" src="https://github.com/user-attachments/assets/73994704-48c8-42fb-ac96-6333c9cd8552" />
----
-<img width="1755" height="848" alt="image" src="https://github.com/user-attachments/assets/c55f4104-2c4c-4bdd-8d04-d2b875145287" />
+<img width="1755" height="1061" alt="image" src="https://github.com/user-attachments/assets/7a7de466-006f-4757-819d-f5a318949cd8" />
+
 ---
 
 ### Volunteer Page Screenshot
 ---
-<img width="1755" height="848" alt="image" src="https://github.com/user-attachments/assets/26e91a1b-2659-4659-84fd-e37d5f88450b" />
----
-<img width="1755" height="848" alt="image" src="https://github.com/user-attachments/assets/13ce77e0-6225-4703-b785-e1189098c893" />
+<img width="1755" height="921" alt="image" src="https://github.com/user-attachments/assets/5bb1b548-901f-491f-b5f7-15f19b5c6cfd" />
+
 ---
 
-### Checkout Page Screenshot
----
-<img width="1755" height="848" alt="image" src="https://github.com/user-attachments/assets/29e00340-62b1-4dd9-880b-9b2bf3858739" />
----
-<img width="1755" height="888" alt="image" src="https://github.com/user-attachments/assets/2b39fe57-a30c-4328-9e92-57edf0773159" />
+## Event Calender info
+<img width="1755" height="1659" alt="image" src="https://github.com/user-attachments/assets/4f725c21-0152-4218-962a-f0dcf0da83fb" />
+
 ---
 
-### Enroll Page Screenshot
-  ---
-<img width="1755" height="848" alt="image" src="https://github.com/user-attachments/assets/d0fbd60f-518a-4f85-8020-e6a7b74583a4" />
----
-<img width="1755" height="848" alt="image" src="https://github.com/user-attachments/assets/9c4bd7cd-cdb2-4c8a-9995-28a76c3741ce" />
+  ### Volunteer Page Screenshot
 ---
 
-  ### Get Involved Page Screenshot
----
-<img width="1755" height="1022" alt="image" src="https://github.com/user-attachments/assets/b4a5786c-1b38-49f5-892d-35b71a6eaadf" />
----
-<img width="1755" height="1001" alt="image" src="https://github.com/user-attachments/assets/b6e215be-4804-4e1f-999a-0ffca2f2cc4c" />
+<img width="1755" height="1122" alt="image" src="https://github.com/user-attachments/assets/d6757824-2dbf-43ab-ab13-c050262a3413" />
+
 ---
 
 ### Event Register Page Screenshot
 ---
-<img width="1755" height="848" alt="image" src="https://github.com/user-attachments/assets/ed8a84c4-dfe6-496b-938d-4bd1c26f19f3" />
+<img width="1755" height="1352" alt="image" src="https://github.com/user-attachments/assets/f72acfb8-7fef-4d73-8140-f5f72b76da93" />
+
 ---
-<img width="1755" height="1058" alt="image" src="https://github.com/user-attachments/assets/e70cd40d-0c3d-45dd-a415-c7f2d9b7c8ad" />
----
-### Cart Page Screenshot
----
-<img width="1755" height="848" alt="image" src="https://github.com/user-attachments/assets/35c4b889-42d3-43eb-a933-db112330fdd3" />
----
+
+## Sponser Packages Page Screenshot
+<img width="1755" height="1010" alt="image" src="https://github.com/user-attachments/assets/0c143496-1ffd-4496-9d2c-7627d5dbe073" />
 
 ---
 
